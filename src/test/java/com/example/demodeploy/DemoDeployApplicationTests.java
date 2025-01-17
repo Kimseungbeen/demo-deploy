@@ -8,6 +8,9 @@ class DemoDeployApplicationTests {
 
     @Test
     void contextLoads() {
+        // 단위 테스트
+        // MVC 테스트 -> 목업통해서 가상 처리 가능
+        System.out.println("단위 테스트 호출!! echo");
     }
 
 }
