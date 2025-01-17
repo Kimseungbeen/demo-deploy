@@ -6,12 +6,6 @@ build/
 !**/src/test/**/build/
 ###깃허브 반영 X
 application.properties
----------
-# 캐시를 제거하여 등록 처리
-git rm -r --cached .
-git add .
-git commit -m "Fix: 환경변수파일 제외"
-git push
 
 ### STS ###
 .apt_generated
